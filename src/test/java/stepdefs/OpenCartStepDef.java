@@ -27,7 +27,7 @@ public class OpenCartStepDef {
 
 	@Given("User Navigates to Login Page")
 	public void user_navigates_to_login_page() {
-	system.out.println();
+	system.out.println("CR test update");
 	}
 
 	@When("User enters {string} and {string}")
