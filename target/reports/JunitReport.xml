@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="2.041">
+    <testcase classname="Google Page Search" name="Java Search" time="0.478">
+        <system-out><![CDATA[Given User is on Google page................................................passed
+When User Search Java Tutorial..............................................passed
+Then Should Display Result Page.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Page Search" name="Selenium Search" time="0.031">
+        <system-out><![CDATA[Given User is on Google page................................................passed
+When User Search Selenium Tutorial..........................................passed
+Then Should Display Selenium Result Page....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="HeroKu Login Page" name="Valid Login" time="0.048">
+        <system-out><![CDATA[Given User is on Login page.................................................passed
+When User Enter Login Credential............................................passed
+Then Should Navigate to Success Page........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Psprint Search" name="Roll Sticker Order Placed" time="0.028">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on Psprint....................................................undefined
+When User Add Roll Sticker..................................................skipped
+Then Order Should be Placed.................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
